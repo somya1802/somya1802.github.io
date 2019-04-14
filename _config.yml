@@ -3,13 +3,13 @@ title: Sugandh Gynae Center | Dr. Puniti Srivastava
 description: "Gynae & Obsterics Hospital"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo1.svg
+logo_url: svg/min/sgc.jpg
 
 # Hero
 hero: 
     hero_img: hero.jpg
     hero_title: Sugandh Gynae Center
-    hero_description: Gynae & Obsterics Hospital lead by Dr. Puniti Srivastava.
+    hero_description: Gynae & Obsterics Hospital managed by Dr. Puniti Srivastava <br> Registration No. 29729
 
 # Contact form
 api_token: # Enter API token here
@@ -18,12 +18,12 @@ api_token: # Enter API token here
 contact:
     phone: +91-8004191818
     emergency: +91-9621212080
-    email: contact@yoursite.com
+    email: sugandh.hospital@gmail.com
     address: 9, Shivalik Vihar,Gudian Purva <br> Sector-H, Jankipuram, <br> Lucknow-226021, <br> Landmark - Near Sahara Grace Apt.
 
 # Opening hours
-monday_friday: 9:00 am – 6:00 pm
-sunday: 11:00 am – 2:00 pm
+monday_friday: 11:00 am – 8:00 pm
+sunday: 11:00 am – 1:00 pm
 Emergency: 24/7
 
 # Testimonials 
@@ -41,11 +41,10 @@ facebook: http://facebook.com
 twitter: http://twitter.com
 instagram: http://instagram.com
 youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2019 Sugandh Gynae Centre - All rights reserved
 
 # Build settings
 markdown: kramdown

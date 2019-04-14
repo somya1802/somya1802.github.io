@@ -15,22 +15,22 @@ layout: default
 
     <div class="container-fluid">
         
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" display="None">
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Online Appointment</h3>
+            <form method="post">
                 <div class="form-field">
-                    <input name="name" type="text" placeholder="Name" required>
+                    <input name="name" type="text" placeholder="Name" required disabled="true">
                 </div>
                 <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Phone" required>
+                    <input name="phone" type="tel" placeholder="Phone" required disabled="true">
                 </div>
                 <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="email" type="email" placeholder="Email" required disabled="true">
                 </div>
                 <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
+                    <textarea name="comments" placeholder="Online appointment not available. For appointment call +91-8004191818" required disabled="true"></textarea>
                 </div>
-                <input type="submit" class="btn btn-default" value="Send">
+                <input type="submit" class="btn btn-default" value="Send" disabled="true">
             </form>
         </div>
 
@@ -86,8 +86,8 @@ layout: default
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <h3>Dr. Puniti Srivastava, M.B.B.S., M.S.(Gynae)</h3>
+                <p>Obstetrician and Gynaecologist, based in Jankipuram Lucknow</p>
 
                 <div class="media">
                     <div class="media-left">
@@ -96,7 +96,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>30+ years of experience, worked in Lady Harding Medical College, Delhi; Jain Nursing Home, New Delhi and Amar Leela Hospital, New Delhi</p>
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>5000+ surgeries. Specialist in Gynae and Obstetrical and other general surgeries. </p>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Especiality in Infertility treatement, for male and female.</p>
                     </div>
                 </div>
             </div>
@@ -149,28 +149,6 @@ layout: default
     </div>
 </div>
 <!-- End Treatments -->
-
-<!-- Start Our team -->
-<div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
-    <div id="team-carousel">
-    {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-</div>
-<!-- End Our team -->
 
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
@@ -215,6 +193,3 @@ layout: default
 </div>
 <!-- End Gallery -->
 
-<!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->

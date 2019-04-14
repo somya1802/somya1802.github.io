@@ -1,31 +1,31 @@
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp1.jpg
+  image_large: hosp1.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp2.jpg
+  image_large: hosp2.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp3.jpg
+  image_large: hosp3.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp4.jpg
+  image_large: hosp4.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp5.jpg
+  image_large: hosp5.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp6.jpg
+  image_large: hosp6.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp7.jpg
+  image_large: hosp7.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
+- image_thumb: hosp8.jpg
+  image_large: hosp8.jpg
   image_alt: something meaningful
