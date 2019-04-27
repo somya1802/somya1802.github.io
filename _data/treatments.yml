@@ -1,18 +1,18 @@
 - icon: icon-user-md
-  title: Gynae & Obsterics
-  description: Delivery, Ceasarian, Hysterectomy Vaginal, Laprotomy, Tubal Surgery, Vaginal Repair Surgery & More.
+  title: Gynae & Obstetrics
+  description: Delivery, Cesarean, Hysterectomy (Vaginal & Abdominal), Laprotomy, Tubal Surgery, Vaginal Repair Surgery & More.
 
 - icon: icon-flask
   title: Infertility Treatment
   description: Test and speciality treatment for males and females.
 
 - icon: icon-bed
-  title: General Surgery
-  description: CuT insertion and removal, Hernia & More.
+  title: General and Laparoscopic Surgery
+  description: Hernia, Gallbladder ,Piles and Other Surgeries.
 
 - icon: icon-diamond
-  title: Laproscopic Surgery
-  description: All Gynae and obsterics surgeries
+  title: Family Planning
+  description: CuT insertion and removal, DNC and Tubectomy.
 
 - icon: icon-ambulance
   title: Admission and Medicine
@@ -20,4 +20,4 @@
 
 - icon: icon-flask
   title: OPD and Lab Tests
-  description: Consultation, Anetal check-ups and lab tests available.
+  description: Consultation and antenatal check-ups. All Lab tests available.
